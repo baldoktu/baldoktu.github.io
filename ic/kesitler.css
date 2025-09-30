@@ -1,0 +1,28 @@
+body {
+   background-color: rgb(255, 236, 211);
+}
+#dic {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: 50px;
+   padding: 20px;
+   background-color: rgb(255, 236, 211);
+}
+p {
+   background-color: rgb(247, 243, 232);
+   color: rgb(0, 0, 0);
+   font-size: 40px;
+   font-family: 'Times New Roman', Times;
+   margin: 20px 100px;
+   margin-top: 50px; 
+   padding: 3%;
+   width: fit-content;
+}
+
+.si {
+   border: 20px dodgerblue double;
+   border-radius: 20px
+
+}
