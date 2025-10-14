@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Edebiyat Sınıflarımız</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="divv" id="divv1"><a href="" class="ali" id="ali1">10/E SINIFI </a></div>
+      <div class="divv" id="divv2"><a href="" class="ali" id="ali2">9/D SINIFI</a></div>
+      <div class="divv" id="divv3"><a href="" class="ali" id="ali3"><br><br>11/E SINIFI</a></div>
+      <div class="divv" id="divv4"><a href="" class="ali" id="ali4"></a></div>
+      <div class="divv" id="divv5"><a href="" class="ali" id="ali5"></a></div>
+      <div class="divv" id="divv6"><a href="" class="ali" id="ali6"></a></div>
+      <div class="divv" id="divv7"><a href="" class="ali" id="ali7"></a></div>
+      <div class="divv" id="divv8"><a href="" class="ali" id="ali8"></a></div>
+      <div class="divv" id="divv9"><a href="" class="ali" id="ali9"></a></div>
+    </div>
+
+    <nav>
+      <div class="logo">
+        <i class="bx bx-menu menu-icon"></i>
+        <span class="logo-name">
+          &nbsp; &nbsp;
+          <a id="alogo" style="text-decoration: none; color: black" href=""
+            >Baldöktü Anadolu Lisesi</a
+          >
+          Edebiyat Bloğu</span
+        >
+      </div>
+      <div class="sidebar">
+        <div class="logo">
+          <i class="bx bx-menu menu-icon"></i>
+          <span class="logo-name">Baldöktü</span>
+        </div>
+
+        <div class="sidebar-content">
+          <ul class="lists">
+            <li class="list">
+              <a href="/index.html" class="nav-link">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="link">Ana Sayfa</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="/hafta/index.html" class="nav-link">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="link">Haftanın Yazısı</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="/ic/son/index.html" class="nav-link">
+                <i class="bx bx-bell icon"></i>
+                <span class="link">En Son Eklenen</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="/ic/tas/index.html" class="nav-link">
+                <i class="bx bx-message-rounded icon"></i>
+                <span class="link">Yazım Aşamasında</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="/ic/meb/mebmain.html" class="nav-link">
+                <i class="bx bx-folder-open icon"></i>
+                <span class="link">Projeler</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="/sinif/index.html" class="nav-link">
+                <span class="link">Edebi Sınıflar</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#" class="nav-link">
+                <span class="link"></span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="bottom-cotent">
+            <li class="list">
+              <a href="/il/index.html" class="nav-link">
+                <span class="link">İletişim</span>
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script>
+      const navBar = document.querySelector("nav"),
+        menuBtns = document.querySelectorAll(".menu-icon"),
+        overlay = document.querySelector(".overlay");
+
+      menuBtns.forEach((menuBtn) => {
+        menuBtn.addEventListener("click", () => {
+          navBar.classList.toggle("open");
+        });
+      });
+
+      overlay.addEventListener("click", () => {
+        navBar.classList.remove("open");
+      });
+    </script>
+  </body>
+</html>

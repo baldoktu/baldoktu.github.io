@@ -1,0 +1,65 @@
+#main {
+    padding-top: 20vh;
+    margin: 8%;
+    display: grid;
+    gap: 10%;
+}
+
+.divv {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-size: 100% 100%;
+    background-position: 50%;
+}
+
+.ali {
+    font-size: 6vw;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'Courier New', Courier;
+    text-shadow: 2px 2px red;
+    color: rgb(0, 0, 0);
+}
+
+
+@media (min-width:1700px) {}
+
+/* Mobil görünümü */
+@media (max-width: 767px) {
+    #main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 50vw 55vw 35vw 35vw 35vw 35vw 35vw 35vw 35vw;
+        grid-template-areas:
+            "divv1"
+            "divv2"
+            "divv3"
+            "divv4"
+            "divv5"
+            "divv6"
+            "divv7"
+            "divv8"
+            "divv9";
+    }
+
+    .divv {
+        height: 65vw;
+    }
+
+    #divv1 {
+        background-image: url(/doc/sf/sf1.png);
+        height: 70vw;
+        background-size: 80% 100%;
+    }
+
+    #divv2 {
+        height: 80vw;
+        background-image: url(/doc/sf/sf2.png);
+    }
+
+    #divv3 {
+        background-image: url(/doc/sf/sf3.png);
+    }
+}
