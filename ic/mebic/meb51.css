@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(255, 246, 235);
+}
+
+@media (min-width:1700px) {
+    section {
+        position: relative;
+        padding: 10px;
+        margin: 50%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+        translate: -50% 0;
+        width: 60%;
+        height: 800px;
+        background-color: antiquewhite;
+        border: 15px groove dodgerblue;
+        border-top: 15px ridge dodgerblue;
+        border-left: 15px ridge dodgerblue;
+        border-radius: 50px;
+    }
+
+    .imge {
+        position: absolute;
+        width: 25vw;
+        height: 13vw;
+        border-radius: 20px;
+    }
+
+    .pa {
+        position: absolute;
+        width: 40%;
+        height: 25%;
+        translate: 0 -50%;
+        align-items: center;
+        text-align: center;
+        box-shadow: 5px 5px 5px 5px rgba(0, 35, 99, 0.5);
+        border-radius: 30px;
+        align-content: center;
+        background-color: bisque;
+        border: 10px ridge red;
+        font-family: 'Courier New', Courier;
+        font-weight: 600;
+        font-size: 1.2vw;
+        text-decoration: wavy;
+    }
+
+    #img1 {
+        left: 5%;
+        top: 5.5%;
+    }
+
+    #img2 {
+        left: 5%;
+        top: 35.5%;
+    }
+
+    #img3 {
+        left: 5%;
+        top: 65.5%;
+    }
+
+    #pa1 {
+        right: 10%;
+        top: 17%;
+    }
+
+    #pa2 {
+        right: 10%;
+        top: 47%;
+    }
+
+    #pa3 {
+        right: 10%;
+        top: 77%;
+    }
+}
+
+/* Mobil görünümü */
+@media (max-width: 767px) {
+    .sec {
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vw 55vw 40vw 55vw 40vw 50vw;
+        grid-template-areas:
+            "img1"
+            "box1"
+            "img2"
+            "box2"
+            "img3"
+            "box3";
+    }
+
+    .sec {
+        margin: 2%;
+        display: grid;
+        gap: 5%;
+        padding-top: 5vw;
+        padding: 5vw;
+        height: 400vw;
+    }
+
+    .pa {
+        border-radius: 30px;
+        font-size: 4vw;
+        font-weight: 600;
+        height: 50vw;
+        background-color: bisque;
+        border: 10px ridge red;
+        font-family: 'Courier New', Courier;
+        text-decoration: wavy;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        box-shadow: 5px 5px 5px rgba(35, 35, 99, 0.5);
+    }
+
+    .imge {
+        background-color: blue;
+        width: 80vw;
+        height: 50vw;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgba(35, 35, 99, 0.5);
+    }
+
+    #pa1 {
+        grid-area: box1;
+    }
+
+    #pa2 {
+        grid-area: box2;
+    }
+
+    #pa3 {
+        grid-area: box3;
+    }
+
+    #img1 {
+        grid-area: img1;
+    }
+}
+
+/*Tablet gör.*/
+@media (min-width:767px) and (max-width:1699px) {
+    .imge {
+        background-color: blue;
+        width: 25vw;
+        height: 13vw;
+        border-radius: 20px;
+    }
+
+    .sec {
+        background-color: antiquewhite;
+        border: 15px groove dodgerblue;
+        border-top: 15px ridge dodgerblue;
+        border-left: 15px ridge dodgerblue;
+        border-radius: 50px;
+        translate: 27%;
+        width: 60vw;
+        height: 45vw;
+        padding-top: 5vh;
+        padding: 2vw 2vw 0vw 2vw;
+        margin: 2%;
+        display: grid;
+        gap: 5%;
+    }
+
+    .sec {
+
+        grid-template-columns: 1fr 1fr;
+        /* sol ve sağ sütun */
+        grid-template-rows: 11vw 11vw;
+        /* sol kutular için iki satır */
+        grid-template-areas:
+            "res1 box1"
+            "res2 box2"
+            "res3 box3";
+    }
+
+    .pa {
+        border-radius: 30px;
+        font-size: 1.3vw;
+        height: 10vw;
+        background-color: bisque;
+        border: 10px ridge red;
+        font-family: 'Courier New', Courier;
+        font-weight: 600;
+        text-decoration: wavy;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        box-shadow: 5px 5px 5px 5px rgba(0, 35, 99, 0.5);
+    }
+
+    #pa1 {
+        grid-area: box1;
+    }
+
+    #pa2 {
+        grid-area: box2;
+    }
+
+    #pa3 {
+        grid-area: box3;
+    }
+}

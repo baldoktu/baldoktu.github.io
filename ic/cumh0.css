@@ -1,0 +1,103 @@
+img {
+    width: 150%;
+    height: 150%;
+    padding-bottom: 50px;
+}
+
+
+
+#a1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+#a2 {
+    position: absolute;
+    top: 100px;
+    left: 316px;
+}
+
+#a3 {
+    position: absolute;
+    top: 100px;
+    left: 417px;
+    width: 1500px;
+}
+
+#img3 {
+    width: 1289px;
+    height: 295px;
+}
+
+#a4 {
+    position: absolute;
+    top: 393px;
+    left: 200px;
+}
+
+#a5 {
+    position: absolute;
+    top: 393px;
+    left: 316px;
+}
+
+#a6 {
+    position: absolute;
+    top: 393px;
+    left: 415px;
+}
+
+#a7 {
+    position: absolute;
+    top: 393px;
+    left: 580px;
+}
+
+#a8 {
+    position: absolute;
+    top: 393px;
+    left: 694px;
+}
+
+#a9 {
+    position: absolute;
+    top: 393px;
+    left: 793px;
+}
+
+#a10 {
+    position: absolute;
+    top: 393px;
+    left:897px;
+}
+
+#a12 {
+    position: absolute;
+    top: 393px;
+    left: 1090px;
+}
+
+#a11 {
+    position: absolute;
+    top: 393px;
+    left: 1022px;
+}
+
+#a13 {
+    position: absolute;
+    top: 393px;
+    left: 1240px;
+}
+
+#a14 {
+    position: absolute;
+    top: 393px;
+    left: 1375px;   
+}
+
+#a15 {
+    position: absolute;
+    top: 393px;
+    left: 1547px;
+}
