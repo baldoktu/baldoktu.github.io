@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>İletişim</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <a href="" class="box box1">
+        <h2 class="childo1 childo"></h2>
+        <div class="childo1 childo"></div>
+      </a>
+      <a href="" class="box box2">
+        <h1 class="hidrojen">Telefon :</h1>
+        <div class="childo2 childo">0352 222 37 33</div>
+        <hr />
+        <br />
+        <h1 class="hidrojen">Adres:</h1>
+        <div class="childo23 childo">
+          HUNAT MAH. ŞHT. YZB. SAMİ AKBULUT CAD. NO 4 MELİKGAZİ / KAYSERİ
+        </div>
+        <hr />
+      </a>
+    </div>
+
+    <nav>
+      <div class="logo">
+        <i class="bx bx-menu menu-icon"></i>
+        <span class="logo-name">
+          &nbsp; &nbsp;
+          <a id="alogo" style="text-decoration: none; color: black" href=""
+            >Baldöktü Anadolu Lisesi</a
+          >
+          Edebiyat Bloğu</span
+        >
+      </div>
+      <div class="sidebar">
+        <div class="logo">
+          <i class="bx bx-menu menu-icon"></i>
+          <span class="logo-name">Baldöktü</span>
+        </div>
+
+        <div class="sidebar-content">
+          <ul class="lists">
+            <li class="list">
+              <a href="/index.html" class="nav-link">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="link">Ana Sayfa</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="/hafta/index.html" class="nav-link">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="link">Haftanın Yazısı</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="/ic/son/index.html" class="nav-link">
+                <i class="bx bx-bell icon"></i>
+                <span class="link">En Son Eklenen</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="/ic/tas/index.html" class="nav-link">
+                <i class="bx bx-message-rounded icon"></i>
+                <span class="link">Yazım Aşamasında</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="/ic/meb/mebmain.html" class="nav-link">
+                <i class="bx bx-folder-open icon"></i>
+                <span class="link">Projeler</span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#" class="nav-link">
+                <span class="link"></span>
+              </a>
+            </li>
+            <li class="list">
+              <a href="#" class="nav-link">
+                <span class="link"></span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="bottom-cotent">
+            <li class="list">
+              <a href="/il/index.html" class="nav-link">
+                <span class="link">İletişim</span>
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script>
+      const navBar = document.querySelector("nav"),
+        menuBtns = document.querySelectorAll(".menu-icon"),
+        overlay = document.querySelector(".overlay");
+
+      menuBtns.forEach((menuBtn) => {
+        menuBtn.addEventListener("click", () => {
+          navBar.classList.toggle("open");
+        });
+      });
+
+      overlay.addEventListener("click", () => {
+        navBar.classList.remove("open");
+      });
+    </script>
+  </body>
+</html>

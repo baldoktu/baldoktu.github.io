@@ -1,0 +1,155 @@
+    .main-container {
+        padding-top: 20vh;
+        margin: 8%;
+        display: grid;
+        gap: 10%;
+    }
+
+    .box {
+        background: rgb(255, 255, 255);
+        border: 3px solid black;
+        border-radius: 15px;
+        padding: 1%;
+        text-decoration: none;
+        background-size: cover;
+    }
+
+    .box1 {
+        background-image: url(ilet.webp);
+        background-clip: border-box;
+        background-position: 50%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        max-height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .box2 {
+        color: black;
+        padding-top: 3vw;
+        padding-left: 2vw;
+        padding-right: 7vw;
+    }
+
+    .hidrojen {
+        color: red;
+        font-size: 1.8vw;
+    }
+
+    .childo2 {
+        align-self: center;
+        text-align: right;
+    }
+
+    .childo23 {
+        text-align: left;
+    }
+
+    /* Mobil görünümü */
+    @media (max-width: 767px) {
+        .main-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: 30vh;
+            grid-template-areas:
+                "box1"
+                "box2"
+                "box3";
+        }
+
+        .box1 {
+            padding: 1% 1%;
+            background-size: cover;
+        }
+
+        .box1 {
+            background-image: url(ilet.webp);
+            background-clip: border-box;
+            background-position: 50%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            max-height: fit-content;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .box2 {
+            color: black;
+            padding-top: 3vw;
+            padding-left: 2vw;
+            padding-right: 7vw;
+        }
+
+        .hidrojen {
+            color: red;
+            font-size: 5vw;
+        }
+
+        .childo2 {
+            align-self: center;
+            text-align: right;
+            font-size: 4vw;
+        }
+
+        .childo23 {
+            text-align: left;
+            font-size: 4vw;
+        }
+    }
+
+    /*Tablet gör.*/
+    @media (min-width:767px) and (max-width:1400px) {
+        .main-container {
+            grid-template-columns: 1.5fr 1fr;
+            /* sol ve sağ sütun */
+            grid-template-rows: 30vw 20vw;
+            /* sol kutular için iki satır */
+            grid-template-areas:
+                "box1 box2"
+                "box3 box3";
+        }
+
+        .box1 {
+            grid-area: box1;
+        }
+
+        .box2 {
+            grid-area: box2;
+        }
+
+        .box3 {
+            grid-area: box3;
+        }
+
+    }
+
+    /* PC görünümü */
+    @media (min-width: 1400px) {
+        .main-container {
+            grid-template-columns: 1.5fr 1fr;
+            /* sol ve sağ sütun */
+            grid-template-rows: 30vw 20vw;
+            /* sol kutular için iki satır */
+            grid-template-areas:
+                "box1 box2"
+                "box3 box3";
+        }
+
+        .box1 {
+            grid-area: box1;
+        }
+
+        .box2 {
+            grid-area: box2;
+        }
+
+        .box3 {
+            grid-area: box3;
+        }
+
+        #cumhres {
+            padding-top: 4%;
+        }
+    }
