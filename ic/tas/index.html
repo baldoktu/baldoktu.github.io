@@ -1,107 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/style.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <nav>
+<head>
+  <title>Yazım Aşamasında</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="dive1" class="dive">
+    <p id="bas">
+      Bir Kuş Olsaydım
+    <div id="rotate"><img id="rotatei" src="/doc/rotatephone.png" alt="">
+      <p id="pirag">Lütfen Telefonu çeviriniz</p>
+    </div>
+    </p>
+
+  </div>
+
+  <div id="dive2" class="dive">
+    <p id="main">
+      &nbsp; &nbsp; Bir kuş olsaydım, sabahın ilk ışıklarıyla birlikte gökyüzüne kanat çalardım. Güneşin utangaç
+      gülümsemesiyle altın
+      rengine boyanmış bulutların arasında süzülürken, rüzgâr saçlarım yerine tüylerimi okşardı. Her kanat çırpışımda
+      özgürlüğün kalp atışlarını duyardım; yeryüzü küçülür, dertler bir nokta gibi kaybolurdu. <br><br>
+
+      Bir serçe kadar neşeli, bir kartal kadar cesur olurdum. Yüksek dağların doruklarına konar, aşağıdaki dünyayı bir
+      tablo gibi seyrederdim. Ovalar, yeşilin binbir tonuyla boyanmış bir halı gibi uzanırdı önümde. Ne zincirim olurdu,
+      ne duvarım… Yalnızca gökyüzü, sonsuz bir yurt gibi üstümde uzanırdı. <br><br>
+
+      Belki bir gün denizlere doğru uçar, dalgaların köpükleriyle yarışırdım. Deniz kokusu tüylerime siner, ufuk
+      çizgisinde kaybolan güneşi uğurlardım. Gece olduğunda, ay benim fenerim, yıldızlar dostlarım olurdu. Her biri,
+      bana hikâyeler fısıldardı: “Uç, düşmeden, korkmadan…” <br><br>
+      ...
+    </p>
+  </div>
+
+  <div id="dive3" class="dive">
+    <p id="yazr">Eren BASIN</p>
+  </div>
+  <!--       Bir kuş olsaydım, insanlar arasında dolanmazdım belki ama onları yükseklerden izlerdim. Koşuşturmalarını,
+      telaşlarını, unuttukları özgürlüğü görür ve içimden “keşke onlar da uçabilseydi” derdim. Çünkü uçmak, sadece
+      gökyüzünde değil, yürekte hafif olmaktır. <br><br>
+
+      Bir kuş olsaydım, her kanadımda bir dua taşırdım; rüzgâra karışan umutlarımı dünyanın dört bir yanına savururdum.
+      Ve belki o zaman, gökyüzü biraz daha mavi olurdu. -->
+  <nav>
+    <div class="logo">
+      <i class="bx bx-menu menu-icon"></i>
+      <span class="logo-name">
+        &nbsp; &nbsp;
+        <a id="alogo" style="text-decoration: none; color: black" href="">Baldöktü Anadolu Lisesi</a>
+        Edebiyat Bloğu</span>
+    </div>
+    <div class="sidebar">
       <div class="logo">
         <i class="bx bx-menu menu-icon"></i>
-        <span class="logo-name">
-          &nbsp; &nbsp;
-          <a id="alogo" style="text-decoration: none; color: black" href=""
-            >Baldöktü Anadolu Lisesi</a
-          >
-          Edebiyat Bloğu</span
-        >
+        <span class="logo-name">Baldöktü</span>
       </div>
-      <div class="sidebar">
-        <div class="logo">
-          <i class="bx bx-menu menu-icon"></i>
-          <span class="logo-name">Baldöktü</span>
-        </div>
 
-        <div class="sidebar-content">
-          <ul class="lists">
-            <li class="list">
-              <a href="/index.html" class="nav-link">
-                <i class="bx bx-home-alt icon"></i>
-                <span class="link">Ana Sayfa</span>
-              </a>
-            </li>
-            <li class="list">
-              <a href="/hafta/index.html" class="nav-link">
-                <i class="bx bx-bar-chart-alt-2 icon"></i>
-                <span class="link">Haftanın Yazısı</span>
-              </a>
-            </li>
-            <li class="list">
-              <a href="/ic/son/index.html" class="nav-link">
-                <i class="bx bx-bell icon"></i>
-                <span class="link">En Son Eklenen</span>
-              </a>
-            </li>
-            <li class="list">
-              <a href="/ic/tas/index.html" class="nav-link">
-                <i class="bx bx-message-rounded icon"></i>
-                <span class="link">Yazım Aşamasında</span>
-              </a>
-            </li>
-            <li class="list">
-              <a href="/ic/meb/mebmain.html" class="nav-link">
-                <i class="bx bx-folder-open icon"></i>
-                <span class="link">Projeler</span>
-              </a>
-            </li>
-            <li class="list">
-              <a href="/sinif/index.html" class="nav-link">
-                <span class="link">Edebi Sınıflar</span>
-              </a>
-            </li>
-            <li class="list">
-              <a href="#" class="nav-link">
-                <span class="link"></span>
-              </a>
-            </li>
-          </ul>
+      <div class="sidebar-content">
+        <ul class="lists">
+          <li class="list">
+            <a href="/index.html" class="nav-link">
+              <i class="bx bx-home-alt icon"></i>
+              <span class="link">Ana Sayfa</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="/hafta/index.html" class="nav-link">
+              <i class="bx bx-bar-chart-alt-2 icon"></i>
+              <span class="link">Haftanın Yazısı</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="/ic/son/index.html" class="nav-link">
+              <i class="bx bx-bell icon"></i>
+              <span class="link">En Son Eklenen</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="/ic/tas/index.html" class="nav-link">
+              <i class="bx bx-message-rounded icon"></i>
+              <span class="link">Yazım Aşamasında</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="/ic/meb/mebmain.html" class="nav-link">
+              <i class="bx bx-folder-open icon"></i>
+              <span class="link">Projeler</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="/sinif/index.html" class="nav-link">
+              <span class="link">Edebi Sınıflar</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="#" class="nav-link">
+              <span class="link"></span>
+            </a>
+          </li>
+        </ul>
 
-          <div class="bottom-cotent">
-            <li class="list">
-              <a href="/il/index.html" class="nav-link">
-                <span class="link">İletişim</span>
-              </a>
-            </li>
-          </div>
+        <div class="bottom-cotent">
+          <li class="list">
+            <a href="/il/index.html" class="nav-link">
+              <span class="link">İletişim</span>
+            </a>
+          </li>
         </div>
       </div>
-    </nav>
-    <script>
-      const navBar = document.querySelector("nav"),
-        menuBtns = document.querySelectorAll(".menu-icon"),
-        overlay = document.querySelector(".overlay");
+    </div>
+  </nav>
+  <script>
+    const navBar = document.querySelector("nav"),
+      menuBtns = document.querySelectorAll(".menu-icon"),
+      overlay = document.querySelector(".overlay");
 
-      menuBtns.forEach((menuBtn) => {
-        menuBtn.addEventListener("click", () => {
-          navBar.classList.toggle("open");
-        });
+    menuBtns.forEach((menuBtn) => {
+      menuBtn.addEventListener("click", () => {
+        navBar.classList.toggle("open");
       });
+    });
 
-      overlay.addEventListener("click", () => {
-        navBar.classList.remove("open");
-      });
-    </script>
-  </body>
+    overlay.addEventListener("click", () => {
+      navBar.classList.remove("open");
+    });
+  </script>
+</body>
+
 </html>
