@@ -73,7 +73,7 @@ body {
   }
 }
 
-@media (max-width:1270px) and (min-width:800px) {
+@media (max-width:1270px) and (min-width:650px) {
   .dive {
     height: 100%;
     position: relative;
@@ -134,7 +134,7 @@ body {
   }
 }
 
-@media (max-width:800px) {
+@media (max-width:650px) {
   .dive {
     height: 100%;
     position: relative;
