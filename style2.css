@@ -19,6 +19,7 @@
         background-image: url(/doc/cumhproj1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        min-width: fit-content;
     }
 
     .box2 {
@@ -28,7 +29,6 @@
     }
     .box3{
         align-content: center;
-        max-height: fit-content;
     }
 
     #has2 {
@@ -93,7 +93,7 @@
         #pir {
             margin-top: 10%;
             text-align: center;
-            font-size: 1.4vw;
+            font-size: 1.3vw;
         }
     }
 
@@ -136,6 +136,6 @@
         #pir {
             margin-top: 12%;
             text-align: center;
-            font-size: 1.5vw;
+            font-size: 1.4vw;
         }
     }
